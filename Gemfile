@@ -69,3 +69,7 @@ gem 'geocoder'
 group :production do
   gem 'pg', '~> 0.19.0'
 end
+
+group :production, :staging do
+    gem 'unicorn'
+end

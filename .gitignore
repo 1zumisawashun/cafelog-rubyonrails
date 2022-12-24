@@ -23,3 +23,7 @@
 .byebug_history
 
 /.env
+
+/public
+/slick-1.8.1
+
